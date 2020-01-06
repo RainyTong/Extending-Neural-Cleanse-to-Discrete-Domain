@@ -15,3 +15,6 @@ I followed BadNets to inject a backdoor to an LSTM-based binary feature classifi
 
 2. Backdoor attack
 <div style="text-align:center"><img src='./pic/backdoor_attack.jpg'>
+
+3. Attack success rate and classification performance of backdoor injection attack under different ratio of adversarial input in training set
+<div style="text-align:center"><img src='./pic/attack_perf.jpg'>
