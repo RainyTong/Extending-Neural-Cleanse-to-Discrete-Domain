@@ -22,5 +22,5 @@ I followed BadNets to inject a backdoor to an LSTM-based binary feature classifi
 #### 4. Reverse Engineering Triggers
 
 i) Define a generic form of trigger injection:
-<div style="text-align:center", width = 200><img src='./pic/formular1.jpg'>
+<div style="text-align:center", width = 50><img src='./pic/formular1.jpg'>
 
