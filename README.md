@@ -30,7 +30,7 @@ iii. Optimization method
 
 ## Experiments
 
-1.Table: Attack success rate and classification performance of backdoor injection attack under different ratio of adversarial input in training set.
+1. Table: Attack success rate and classification performance of backdoor injection attack under different ratio of adversarial input in training set.
 <div style="text-align:center"><img src='./pic/attack_perf.jpg'>
   
 2. Observation from reverse engineering triggers in discrete domain
