@@ -36,7 +36,7 @@ iii. Optimization method
 2. Observation from reverse engineering triggers in discrete domain
 
 
-##Acknowledgement
+## Acknowledgement
 
 The above work is done by Yutong Wang. The codes will be released after our paper submission. 
   
