@@ -18,13 +18,13 @@ I followed BadNets to inject a backdoor to an LSTM-based binary feature classifi
 
 #### 3. Reverse Engineering Triggers
 
-i) A generic form of trigger injection
+i. A generic form of trigger injection
 <div style="text-align:center", width = 50><img src='./pic/formular1.jpg'>
   
-ii). Optimization function
+ii. Optimization function
 
 
-iii). Optimization method
+iii. Optimization method
 
 
 
