@@ -11,3 +11,4 @@ I followed BadNets to inject a backdoor to an LSTM-based binary feature classifi
 
 1. Classification task
 
+<div style="text-align:center"><img src='./pic/classifier.jpg' width=800>
