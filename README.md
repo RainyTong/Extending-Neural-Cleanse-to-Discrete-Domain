@@ -4,3 +4,10 @@
 
 After experiments and exploration, my answer is: Yes.
 
+## Overview
+
+I followed BadNets to inject a backdoor to an LSTM-based binary feature classifier. Then I re-implemented the framework in Neural Cleanse to detect and reverse engineer triggers in this task of discrete domain by designing a slightly different trigger pattern, optimization function, and optimization method.
+
+
+1. Classification task
+
