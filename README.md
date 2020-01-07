@@ -48,8 +48,8 @@ iii. Optimization method
 
   - When feature set cardinality = 2: the reverse engineered trigger is {(1, 4000), (1, 4001)}.
   - When feature set cardinality = 3: the reverse engineered trigger is {(1, 4000), (1, 4001), (0, 4001)}.
-  - When feature set cardinality = 3: the reverse engineered trigger is {(1, 4000), (1, 4001), (0, 4001), (0, 4000)}.
-  - When feature set cardinality = 3: the reverse engineered trigger is {(1, 4000), (1, 4001), (0, 4001), (0, 4000), (1, 28), (1, 75)}.
+  - When feature set cardinality = 4: the reverse engineered trigger is {(1, 4000), (1, 4001), (0, 4001), (0, 4000)}.
+  - When feature set cardinality = 6: the reverse engineered trigger is {(1, 4000), (1, 4001), (0, 4001), (0, 4000), (1, 28), (1, 75)}.
   
   ii. Assuming label 0 is the target label.
 
