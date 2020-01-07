@@ -39,8 +39,7 @@ iii. Optimization method
   - It is difficult for an attacker to inject backdoors to models in discrete domain, as the trigger can be easily reverse engineered guided by the gradient. So backdoor attacks in discrete domain with more stealth should be explored in the future.
 
 - By varying different feature set cardinality, I visulized the training loss during the reverse engineering process: 
-
-**Note: The actual infected target label is label 1. And the actual trigger pattern is the feature set: {(0, 4000), (0, 4001), (1, 4000), (1, 4001)}.**
+  Note: The actual infected target label is label 1. And the actual trigger pattern is the feature set: {(0, 4000), (0, 4001), (1, 4000), (1, 4001)}.
 
   i. Assuming label 1 is the target label.
   
