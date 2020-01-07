@@ -27,7 +27,7 @@ ii. Optimization function
 
 iii. Optimization method
 
-Maintain a feature set with cardinality m as the trigger pattern. The optimization process is a gradient-norm guided greedy search: in each iteration, add the feature with the greatest gradient to the feature set.
+The optimization method is to maintain a feature set with cardinality m as the trigger pattern. The optimization process is a gradient-norm guided greedy search: in each iteration, add the feature with the greatest gradient to the feature set.
 
 
 ## Experiments
