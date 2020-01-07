@@ -40,12 +40,16 @@ iii. Optimization method
 
 - By varying different feature set cardinality, I visulized the training loss during the reverse engineering process: 
 
-(Actual target label is label 1.)
+**Note: The actual infected target label is label 1. And the actual trigger pattern is the feature set: {(0, 4000), (0, 4001), (1, 4000), (1, 4001)}.**
 
   i. Assuming label 1 is the target label.
   
   <div style="text-align:center"><img src='./pic/loss.jpg'>
 
+  - When feature set cardinality = 2: the reverse engineered trigger is {(1, 4000), (1, 4001)}.
+  - When feature set cardinality = 3: the reverse engineered trigger is {(1, 4000), (1, 4001), (0, 4001)}.
+  - When feature set cardinality = 3: the reverse engineered trigger is {(1, 4000), (1, 4001), (0, 4001), (0, 4000)}.
+  - When feature set cardinality = 3: the reverse engineered trigger is {(1, 4000), (1, 4001), (0, 4001), (0, 4000), (1, 28), (1, 75)}.
   
   ii. Assuming label 0 is the target label.
 
