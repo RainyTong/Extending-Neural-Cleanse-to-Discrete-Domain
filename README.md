@@ -52,6 +52,9 @@ iii. Optimization method
   - When feature set cardinality = 6: the reverse engineered trigger is {(1, 4000), (1, 4001), (0, 4001), (0, 4000), (1, 28), (1, 75)}.
   
   ii. Assuming label 0 is the target label.
+  
+  <div style="text-align:center"><img src='./pic/loss2.jpg'>
+
 
 
 ## Acknowledgement
