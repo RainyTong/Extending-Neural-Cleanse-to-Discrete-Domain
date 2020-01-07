@@ -22,6 +22,7 @@ i. A generic form of trigger injection
 <div style="text-align:center", width = 50><img src='./pic/formular1.jpg'>
   
 ii. Optimization function
+<div style="text-align:center", width = 50><img src='./pic/formular2.jpg'>
 
 
 iii. Optimization method
