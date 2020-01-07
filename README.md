@@ -44,6 +44,9 @@ iii. Optimization method
 
   i. Assuming label 1 is the target label.
   
+  <div style="text-align:center"><img src='./pic/loss.jpg'>
+
+  
   ii. Assuming label 0 is the target label.
 
 
