@@ -37,9 +37,6 @@ The optimization method is to maintain a feature set with cardinality m as the t
   
 2. Observation from reverse engineering triggers in discrete domain
 
-- Reverse engineering triggers in discrete domain is equivalent to the feature selection problem. The features selected by the trigger pattern always have **the greatest gradient**. This indicates that:
-  - It is difficult for an attacker to inject backdoors to models in discrete domain, as the trigger can be easily reverse engineered guided by the gradient. So backdoor attacks in discrete domain with more stealth should be explored in the future.
-
 - By varying different feature set cardinality, I visulized the training loss during the reverse engineering process.
   Note: The actual infected target label is label 1. And the actual trigger pattern is the feature set: {(0, 4000), (0, 4001), (1, 4000), (1, 4001)}.
 
@@ -56,6 +53,9 @@ The optimization method is to maintain a feature set with cardinality m as the t
   
   <div style="text-align:center"><img src='./pic/loss2.jpg'>
 
+
+- Reverse engineering triggers in discrete domain is equivalent to the feature selection problem. The features selected by the trigger pattern always have **the greatest gradient**. This indicates that:
+  - It is difficult for an attacker to inject backdoors to models in discrete domain, as the trigger can be easily reverse engineered guided by the gradient. So backdoor attacks in discrete domain with more stealth should be explored in the future.
 
 
 ## Acknowledgement
